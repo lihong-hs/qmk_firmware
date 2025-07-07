@@ -1,0 +1,23 @@
+#pragma once
+
+#define MOUSEKEY_DELAY 0
+#define MOUSEKEY_INTERVAL 16
+#define MOUSEKEY_MAX_SPEED 4
+#define MOUSEKEY_TIME_TO_MAX 10
+#define MOUSEKEY_WHEEL_MAX_SPEED 8
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 10
+
+
+#define MK_C_OFFSET_0 4
+#define MK_C_INTERVAL_0 32
+
+#define MK_C_OFFSET_1 8
+#define MK_C_INTERVAL_1 16
+
+#define MK_C_OFFSET_2 28
+#define MK_C_INTERVAL_2 16
+
+#define MK_C_OFFSET_UNMOD 8
+#define MK_C_INTERVAL_UNMOD 16
+
+#define TAPPING_TERM 200
