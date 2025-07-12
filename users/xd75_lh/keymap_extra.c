@@ -1,3 +1,41 @@
+enum combos {
+  WF_SYMBOL_ONCE,
+  UY_NAV,
+  K89_MOUSE
+};
+
+const uint16_t PROGMEM wf_combo[] = {KC_W, KC_F, COMBO_END};
+const uint16_t PROGMEM uy_combo[] = {KC_U, KC_Y, COMBO_END};
+const uint16_t PROGMEM k89_combo[] = {KC_8, KC_9, COMBO_END};
+
+combo_t key_combos[] = {
+  [WF_SYMBOL_ONCE] = COMBO(wf_combo, OSL(7)),
+  [UY_NAV] = COMBO(uy_combo, TG(5)),
+  [K89_MOUSE] = COMBO(k89_combo, TG(6)),
+};
+
+#ifdef COMBO_TERM_PER_COMBO
+uint16_t get_combo_term(uint16_t combo_index, combo_t *combo) {
+    // or with combo index, i.e. its name from enum.
+    switch (combo_index) {
+        case WF_SYMBOL_ONCE:
+            return 9001;
+        case UY_NAV:
+            return 9002;
+        case K89_MOUSE:
+            return 9003;
+    }
+
+    return COMBO_TERM;
+}
+#endif
+
+
+#ifdef COMBO_MUST_TAP_PER_COMBO
+bool get_combo_must_tap(uint16_t combo_index, combo_t *combo) {
+    return true // All combos to be tap-only
+}
+#endif
 
 bool process_record_user(uint16_t keycode, keyrecord_t * record) {
   switch (keycode) {
