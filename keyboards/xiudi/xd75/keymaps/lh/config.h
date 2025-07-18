@@ -22,3 +22,5 @@
 
 
 #define TAPPING_TERM 200
+
+#define COMBO_MUST_TAP_PER_COMBO

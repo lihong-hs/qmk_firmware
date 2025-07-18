@@ -11,15 +11,15 @@
  */
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    [0] = LAYOUT_ortho_5x15(KC_ESC, KC_1, KC_2, KC_3, KC_4, KC_5, LT(0,KC_NUM), LT(0,KC_INS), LT(0,KC_DEL), KC_6, KC_7, KC_8, KC_9, KC_0, KC_EQL, KC_GRV, KC_Q, KC_W, KC_F, LT(6,KC_P), KC_B, LT(0,KC_P7), LT(0,KC_P8), LT(0,KC_P9), KC_J, LT(4,KC_L), KC_U, KC_Y, KC_SCLN, KC_MINS, KC_TAB, LALT_T(KC_A), LGUI_T(KC_R), LSFT_T(KC_S), LCTL_T(KC_T), KC_G, LT(0,KC_P4), LT(0,KC_P5), LT(0,KC_P6), KC_M, RCTL_T(KC_N), RSFT_T(KC_E), RGUI_T(KC_I), RALT_T(KC_O), LT(4,KC_QUOT), KC_LSFT, KC_Z, LT(0,KC_X), LT(0,KC_C), KC_D, LT(0,KC_V), LT(0,KC_P1), LT(0,KC_P2), LT(0,KC_P3), KC_K, KC_H, KC_COMM, KC_DOT, KC_SLSH, KC_ENT, LCG_T(KC_LEFT), LSG_T(KC_RGHT), MO(4), LCTL_T(KC_BSPC), LT(7,KC_SPC), LGUI_T(KC_ENT), LM(5, MOD_LALT), LT(7,KC_P0), LT(6,KC_PDOT), LT(7,KC_ENT), LT(5,KC_BSPC), RSFT_T(KC_DEL), KC_LBRC, KC_RBRC, KC_BSLS),
+    [0] = LAYOUT_ortho_5x15(KC_ESC, KC_1, KC_2, KC_3, KC_4, KC_5, LT(0,KC_NUM), LT(0,KC_INS), LT(0,KC_DEL), KC_6, KC_7, KC_8, KC_9, KC_0, KC_EQL, LALT_T(KC_GRV), KC_Q, KC_W, KC_F, LT(5,KC_P), KC_B, LT(0,KC_P7), LT(0,KC_P8), LT(0,KC_P9), KC_J, LT(4,KC_L), KC_U, KC_Y, KC_SCLN, KC_MINS, KC_TAB, LALT_T(KC_A), LGUI_T(KC_R), LSFT_T(KC_S), LCTL_T(KC_T), LT(6,KC_G), LT(0,KC_P4), LT(0,KC_P5), LT(0,KC_P6), KC_M, RCTL_T(KC_N), RSFT_T(KC_E), RGUI_T(KC_I), RALT_T(KC_O), LT(4,KC_QUOT), KC_LSFT, KC_Z, KC_X, KC_C, KC_D, KC_V, LT(0,KC_P1), LT(0,KC_P2), LT(0,KC_P3), KC_K, KC_H, KC_COMM, KC_DOT, KC_SLSH, KC_BSLS, LSA_T(KC_LEFT), LCA_T(KC_RGHT), LAG_T(KC_MPLY), LT(4,KC_BSPC), LT(7,KC_SPC), LGUI_T(KC_ENT), LM(5, MOD_LALT), LT(7,KC_P0), LT(6,KC_PDOT), LT(7,KC_ENT), LT(5,KC_BSPC), RSFT_T(KC_DEL), KC_LBRC, KC_RBRC, KC_ENT),
     [1] = LAYOUT_ortho_5x15(KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_Q, KC_W, KC_F, KC_P, KC_B, KC_TRNS, KC_TRNS, KC_TRNS, KC_J, KC_L, KC_U, KC_Y, KC_SCLN, KC_TRNS, KC_TRNS, KC_A, KC_R, KC_S, KC_T, KC_G, KC_TRNS, KC_TRNS, KC_TRNS, KC_M, KC_N, KC_E, KC_I, KC_O, KC_TRNS, KC_TRNS, KC_Z, KC_X, KC_C, KC_D, KC_V, KC_TRNS, KC_TRNS, KC_TRNS, KC_K, KC_H, KC_COMM, KC_DOT, KC_SLSH, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
-    [2] = LAYOUT_ortho_5x15(KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_Q, KC_W, KC_TRNS, KC_R, KC_T, KC_TRNS, KC_TRNS, KC_TRNS, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_TRNS, KC_TRNS, LT(0,KC_A), LSFT_T(KC_S), LT(6,KC_D), KC_F, KC_G, KC_TRNS, KC_TRNS, KC_TRNS, KC_H, KC_J, KC_K, KC_L, KC_SCLN, KC_TRNS, KC_TRNS, KC_Z, LT(0,KC_X), LT(0,KC_C), LT(0,KC_V), KC_B, KC_TRNS, KC_TRNS, KC_TRNS, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
+    [2] = LAYOUT_ortho_5x15(KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_Q, KC_W, KC_E, LT(5,KC_R), KC_T, KC_TRNS, KC_TRNS, KC_TRNS, KC_Y, LT(4,KC_U), KC_I, KC_O, KC_P, KC_TRNS, KC_TRNS, LALT_T(KC_A), LGUI_T(KC_S), LSFT_T(KC_D), LCTL_T(KC_F), LT(6,KC_G), KC_TRNS, KC_TRNS, KC_TRNS, KC_H, RCTL_T(KC_J), RSFT_T(KC_K), RGUI_T(KC_L), RALT_T(KC_SCLN), KC_TRNS, KC_TRNS, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_TRNS, KC_TRNS, KC_TRNS, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
     [3] = LAYOUT_ortho_5x15(KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_TRNS, KC_TRNS, KC_TRNS, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_TRNS, KC_TRNS, KC_A, KC_S, KC_D, KC_F, KC_G, KC_TRNS, KC_TRNS, KC_TRNS, KC_H, KC_J, KC_K, KC_L, KC_SCLN, KC_TRNS, KC_TRNS, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_TRNS, KC_TRNS, KC_TRNS, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
-    [4] = LAYOUT_ortho_5x15(MO(8), KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_F10, KC_F11, KC_F12, KC_NO, KC_NO, KC_NUM, KC_PSLS, KC_PAST, KC_PPLS, KC_NO, MS_WHLU, KC_PGUP, KC_UP, KC_PGDN, MS_WHLD, KC_F7, KC_F8, KC_F9, KC_NO, KC_NO, KC_P7, KC_P8, KC_P9, KC_PMNS, KC_CAPS, KC_NO, KC_LEFT, KC_DOWN, KC_RGHT, QK_LLCK, KC_F4, KC_F5, KC_F6, KC_NO, QK_LLCK, KC_P4, KC_P5, KC_P6, KC_PCMM, KC_TRNS, LCTL(LSFT(KC_Z)), LCTL(LSFT(KC_X)), LCTL(LSFT(KC_C)), LCTL(LSFT(KC_V)), LCTL(LSFT(KC_V)), KC_F1, KC_F2, KC_F3, KC_NO, KC_NO, KC_P1, KC_P2, KC_P3, KC_PEQL, DF(0), DF(2), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_P0, KC_PDOT, KC_ENT),
-    [5] = LAYOUT_ortho_5x15(KC_TRNS, KC_1, KC_2, KC_3, KC_4, KC_5, KC_F10, KC_F11, KC_F12, KC_NO, KC_NO, KC_HOME, KC_END, KC_INS, KC_DEL, KC_LSFT, KC_6, KC_7, KC_8, KC_9, KC_0, KC_F7, KC_F8, KC_F9, MS_WHLU, KC_PGUP, TO(0), KC_PGDN, MS_WHLD, KC_ENT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_F4, KC_F5, KC_F6, QK_LLCK, KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, KC_NO, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_F1, KC_F2, KC_F3, LCTL(KC_Z), LCTL(KC_X), LCTL(KC_C), LCTL(KC_V), KC_NO, KC_NO, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_NO, KC_NO, KC_NO),
-    [6] = LAYOUT_ortho_5x15(KC_ESC, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_TRNS, KC_TRNS, KC_TRNS, KC_WFWD, KC_WBAK, KC_HOME, KC_END, KC_NO, KC_NO, KC_TRNS, KC_NO, QK_LLCK, MS_ACL0, KC_TRNS, MS_ACL1, KC_TRNS, KC_TRNS, KC_TRNS, MS_WHLL, MS_WHLU, MS_UP, MS_WHLD, MS_WHLR, KC_NO, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, MS_ACL2, KC_TRNS, KC_TRNS, KC_TRNS, QK_LLCK, MS_LEFT, MS_DOWN, MS_RGHT, MS_ACL0, MS_ACL1, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, MS_BTN3, MS_BTN1, MS_BTN2, KC_NO, KC_NO, KC_NO, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_NO, TO(0), MS_BTN3, MS_BTN1, MS_BTN2, KC_NO, KC_NO, KC_NO),
-    [7] = LAYOUT_ortho_5x15(KC_NO, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_MUTE, KC_VOLD, KC_VOLU, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_NO, KC_1, KC_2, KC_3, KC_4, KC_5, KC_MPLY, KC_MRWD, KC_MFFD, KC_6, KC_7, KC_8, KC_9, KC_0, KC_F12, KC_NO, KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC, KC_MSTP, KC_MPRV, KC_MNXT, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_PIPE, KC_NO, KC_NO, KC_NO, KC_PLUS, KC_MINS, KC_EQL, KC_PSCR, KC_BRID, KC_BRIU, KC_UNDS, KC_LT, KC_GT, KC_LCBR, KC_RCBR, KC_NO, KC_NO, KC_NO, KC_NO, KC_TRNS, KC_TRNS, KC_TRNS, KC_NO, KC_NO, KC_NO, KC_TRNS, KC_BSPC, KC_DEL, KC_LBRC, KC_RBRC, KC_NO),
-    [8] = LAYOUT_ortho_5x15(KC_TRNS, DF(0), DF(1), DF(2), DF(3), KC_NO, KC_NO, KC_NO, KC_PWR, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, DB_TOGG, KC_NO, PDF(0), KC_NO, PDF(2), KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, QK_BOOT)
+    [4] = LAYOUT_ortho_5x15(MO(8), KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_F10, KC_F11, KC_F12, KC_NO, KC_NO, KC_NUM, KC_PSLS, KC_PAST, KC_PPLS, QK_LLCK, KC_PGDN, KC_UP, KC_PGUP, KC_NO, KC_NO, KC_F7, KC_F8, KC_F9, KC_NO, KC_TRNS, KC_P7, KC_P8, KC_P9, KC_PMNS, KC_CAPS, KC_LEFT, KC_DOWN, KC_RGHT, QK_LLCK, KC_NO, KC_F4, KC_F5, KC_F6, KC_NO, QK_LLCK, KC_P4, KC_P5, KC_P6, KC_TRNS, KC_TRNS, LCS(KC_Z), LCS(KC_X), LCS(KC_C), LCS(KC_V), LCS(KC_V), KC_F1, KC_F2, KC_F3, KC_NO, KC_BSPC, KC_P1, KC_P2, KC_P3, KC_PCMM, DF(0), DF(2), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_P0, KC_PDOT, KC_PEQL),
+    [5] = LAYOUT_ortho_5x15(KC_TRNS, KC_1, KC_2, KC_3, KC_4, KC_5, KC_F10, KC_F11, KC_F12, KC_NO, KC_NO, KC_HOME, KC_END, KC_NO, KC_NO, OS_LALT, KC_6, KC_7, KC_8, KC_9, KC_0, KC_F7, KC_F8, KC_F9, MS_WHLU, KC_PGUP, KC_UP, KC_PGDN, MS_WHLD, KC_NO, KC_TRNS, OS_LALT, OS_LGUI, OS_LSFT, OS_LCTL, KC_TRNS, KC_F4, KC_F5, KC_F6, QK_LLCK, KC_LEFT, KC_DOWN, KC_RGHT, OS_LSFT, KC_NO, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_F1, KC_F2, KC_F3, LCTL(KC_Z), LCTL(KC_X), LCTL(KC_C), LCTL(KC_V), LCTL(KC_Y), KC_NO, OS_LSA, OS_LCA, OS_LAG, OS_LCTL, OS_LSFT, OS_LGUI, OS_LALT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_NO, KC_NO, KC_ENT),
+    [6] = LAYOUT_ortho_5x15(KC_ESC, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_F10, KC_F11, KC_F12, KC_WFWD, KC_WBAK, KC_HOME, KC_END, KC_NO, KC_NO, KC_TRNS, KC_NO, KC_NO, KC_NO, MS_ACL1, KC_NO, KC_F7, KC_F8, KC_F9, MS_WHLL, MS_WHLU, MS_UP, MS_WHLD, MS_WHLR, KC_NO, KC_TRNS, KC_TRNS, KC_TRNS, QK_LLCK, MS_ACL0, KC_TRNS, KC_F4, KC_F5, KC_F6, QK_LLCK, MS_LEFT, MS_DOWN, MS_RGHT, MS_ACL0, MS_ACL1, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_F1, KC_F2, KC_F3, MS_BTN3, MS_BTN1, MS_BTN2, KC_NO, KC_NO, KC_NO, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_NO, MS_BTN3, MS_BTN1, MS_BTN2, KC_NO, KC_NO, KC_NO),
+    [7] = LAYOUT_ortho_5x15(KC_NO, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_MUTE, KC_VOLD, KC_VOLU, KC_F11, KC_F12, KC_LBRC, KC_RBRC, KC_NO, KC_PLUS, OS_LALT, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_MPLY, KC_MRWD, KC_MFFD, KC_PLUS, KC_EQL, KC_LCBR, KC_RCBR, KC_COLN, KC_UNDS, KC_NO, KC_EQL, KC_MINS, KC_CIRC, KC_AMPR, KC_ASTR, KC_MSTP, KC_MPRV, KC_MNXT, KC_CIRC, KC_AMPR, KC_LPRN, KC_RPRN, KC_PIPE, KC_DQUO, KC_NO, KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC, KC_PSCR, KC_BRID, KC_BRIU, KC_MINS, KC_UNDS, KC_LT, KC_GT, KC_QUES, KC_BSLS, OS_LSA, OS_LCA, OS_LAG, OS_LCTL, OS_LSFT, OS_LGUI, OS_LALT, KC_NO, KC_NO, KC_TRNS, KC_BSPC, KC_DEL, KC_NO, KC_NO, KC_NO),
+    [8] = LAYOUT_ortho_5x15(KC_TRNS, DF(0), DF(1), DF(2), DF(3), KC_NO, UG_TOGG, UG_PREV, UG_NEXT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, DB_TOGG, KC_NO, PDF(0), PDF(1), PDF(2), PDF(3), KC_NO, KC_NO, UG_HUED, UG_HUEU, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, UG_SATD, UG_SATU, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_PWR, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, UG_VALD, UG_VALU, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, QK_BOOT)
 };
 
 
@@ -30,166 +30,201 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 enum combos {
-  WF_SYMBOL_ONCE,
-  UY_NAV,
-  K89_MOUSE
+  L0_EI_NUMNAV_TG,  // COLEMAK-DH
+  L2_KL_NUMNAV_TG,  // QWERTY
+
+  K89_MOUSE_TG,
+
+  WF_NUMNAV_ONCE,  // COLEMAK-DH
+  WE_NUMNAV_ONCE,  // QWERTY
+
+  XC_SYMBOL_ONCE,
+  COMMDOT_SYMBOL_ONCE,
 };
 
-const uint16_t PROGMEM wf_combo[] = {KC_W, KC_F, COMBO_END};
-const uint16_t PROGMEM uy_combo[] = {KC_U, KC_Y, COMBO_END};
-const uint16_t PROGMEM k89_combo[] = {KC_8, KC_9, COMBO_END};
+const uint16_t PROGMEM l0_ei_combo[]  = {RSFT_T(KC_E), RGUI_T(KC_I), COMBO_END};
+const uint16_t PROGMEM l2_kl_combo[]  = {RSFT_T(KC_K), RGUI_T(KC_L), COMBO_END};
+const uint16_t PROGMEM k89_combo[]    = {KC_8, KC_9, COMBO_END};
+const uint16_t PROGMEM wf_combo[]     = {KC_W, KC_F, COMBO_END};
+const uint16_t PROGMEM we_combo[]     = {KC_W, KC_E, COMBO_END};
+const uint16_t PROGMEM xc_combo[]     = {KC_X, KC_C, COMBO_END};
+const uint16_t PROGMEM comdot_combo[] = {KC_COMM, KC_DOT, COMBO_END};
 
 combo_t key_combos[] = {
-  [WF_SYMBOL_ONCE] = COMBO(wf_combo, OSL(7)),
-  [UY_NAV] = COMBO(uy_combo, TG(5)),
-  [K89_MOUSE] = COMBO(k89_combo, TG(6)),
+  [L0_EI_NUMNAV_TG] = COMBO(l0_ei_combo, TG(5)),
+  [L2_KL_NUMNAV_TG] = COMBO(l2_kl_combo, TG(5)),
+  [K89_MOUSE_TG]    = COMBO(k89_combo, TG(6)),
+  [WF_NUMNAV_ONCE]  = COMBO(wf_combo, OSL(5)),
+  [WE_NUMNAV_ONCE]  = COMBO(we_combo, OSL(5)),
+  [XC_SYMBOL_ONCE]  = COMBO(xc_combo, OSL(7)),
+  [COMMDOT_SYMBOL_ONCE] = COMBO(comdot_combo, OSL(7)),
 };
-
-#ifdef COMBO_TERM_PER_COMBO
-uint16_t get_combo_term(uint16_t combo_index, combo_t *combo) {
-    // or with combo index, i.e. its name from enum.
-    switch (combo_index) {
-        case WF_SYMBOL_ONCE:
-            return 9001;
-        case UY_NAV:
-            return 9002;
-        case K89_MOUSE:
-            return 9003;
-    }
-
-    return COMBO_TERM;
-}
-#endif
-
 
 #ifdef COMBO_MUST_TAP_PER_COMBO
 bool get_combo_must_tap(uint16_t combo_index, combo_t *combo) {
-    return true // All combos to be tap-only
+    // All combos is tap-only
+    return true;
 }
 #endif
 
-bool process_record_user(uint16_t keycode, keyrecord_t * record) {
-  switch (keycode) {
-  case LT(0, KC_P1):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_P1);
-    } else if (record -> event.pressed) {
-      tap_code16(KC_F1);
+void handle_layer_toggle(uint8_t layer) {
+    uint8_t current_layer = get_highest_layer(layer_state);
+    if (current_layer != layer) {
+        layer_on(layer);
+        layer_lock_on(layer);
+    } else {
+        layer_lock_off(layer);
+        layer_off(layer);
     }
-    return false;
-  case LT(0, KC_P2):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_P2);
-    } else if (record -> event.pressed) {
-      tap_code16(KC_F2);
-    }
-    return false;
-  case LT(0, KC_P3):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_P3);
-    } else if (record -> event.pressed) {
-      tap_code16(KC_F3);
-    }
-    return false;
-  case LT(0, KC_P4):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_P4);
-    } else if (record -> event.pressed) {
-      tap_code16(KC_F4);
-    }
-    return false;
-  case LT(0, KC_P5):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_P5);
-    } else if (record -> event.pressed) {
-      tap_code16(KC_F5);
-    }
-    return false;
-  case LT(0, KC_P6):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_P6);
-    } else if (record -> event.pressed) {
-      tap_code16(KC_F6);
-    }
-    return false;
-  case LT(0, KC_P7):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_P7);
-    } else if (record -> event.pressed) {
-      tap_code16(KC_F7);
-    }
-    return false;
-  case LT(0, KC_P8):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_P8);
-    } else if (record -> event.pressed) {
-      tap_code16(KC_F8);
-    }
-    return false;
-  case LT(0, KC_P9):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_P9);
-    } else if (record -> event.pressed) {
-      tap_code16(KC_F9);
-    }
-    return false;
-  case LT(0, KC_NUM):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_NUM);
-    } else if (record -> event.pressed) {
-      tap_code16(KC_F10);
-    }
-    return false;
-  case LT(0, KC_INS):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_INS);
-    } else if (record -> event.pressed) {
-      tap_code16(KC_F11);
-    }
-    return false;
-  case LT(0, KC_DEL):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_DEL);
-    } else if (record -> event.pressed) {
-      tap_code16(KC_F12);
-    }
-    return false;
-  case LT(0, KC_SPC):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_SPC);
-    } else if (record -> event.pressed) {
-      tap_code16(KC_ENT);
-    }
-    return false;
-  case LT(0, KC_A):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_A);
-    } else if (record -> event.pressed) {
-      tap_code16(C(KC_A));
-    }
-    return false;
-  case LT(0, KC_X):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_X);
-    } else if (record -> event.pressed) {
-      tap_code16(C(KC_X));
-    }
-    return false;
-  case LT(0, KC_C):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_C);
-    } else if (record -> event.pressed) {
-      tap_code16(C(KC_C));
-    }
-    return false;
-  case LT(0, KC_V):
-    if (record -> tap.count && record -> event.pressed) {
-      tap_code16(KC_V);
-    } else if (record -> event.pressed) {
-      tap_code16(C(KC_V));
-    }
-    return false;
-  }
-  return true;
 }
 
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LT(0, KC_P1):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_P1);
+            } else if (record->event.pressed) {
+                tap_code16(KC_F1);
+            }
+            return false;
+        case LT(0, KC_P2):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_P2);
+            } else if (record->event.pressed) {
+                tap_code16(KC_F2);
+            }
+            return false;
+        case LT(0, KC_P3):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_P3);
+            } else if (record->event.pressed) {
+                tap_code16(KC_F3);
+            }
+            return false;
+        case LT(0, KC_P4):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_P4);
+            } else if (record->event.pressed) {
+                tap_code16(KC_F4);
+            }
+            return false;
+        case LT(0, KC_P5):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_P5);
+            } else if (record->event.pressed) {
+                tap_code16(KC_F5);
+            }
+            return false;
+        case LT(0, KC_P6):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_P6);
+            } else if (record->event.pressed) {
+                tap_code16(KC_F6);
+            }
+            return false;
+        case LT(0, KC_P7):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_P7);
+            } else if (record->event.pressed) {
+                tap_code16(KC_F7);
+            }
+            return false;
+        case LT(0, KC_P8):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_P8);
+            } else if (record->event.pressed) {
+                tap_code16(KC_F8);
+            }
+            return false;
+        case LT(0, KC_P9):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_P9);
+            } else if (record->event.pressed) {
+                tap_code16(KC_F9);
+            }
+            return false;
+        case LT(0, KC_NUM):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_NUM);
+            } else if (record->event.pressed) {
+                tap_code16(KC_F10);
+            }
+            return false;
+        case LT(0, KC_INS):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_INS);
+            } else if (record->event.pressed) {
+                tap_code16(KC_F11);
+            }
+            return false;
+        case LT(0, KC_DEL):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_DEL);
+            } else if (record->event.pressed) {
+                tap_code16(KC_F12);
+            }
+            return false;
+        case LT(0, KC_SPC):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_SPC);
+            } else if (record->event.pressed) {
+                tap_code16(KC_ENT);
+            }
+            return false;
+        case LT(0, KC_A):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_A);
+            } else if (record->event.pressed) {
+                tap_code16(C(KC_A));
+            }
+            return false;
+        case LT(0, KC_X):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_X);
+            } else if (record->event.pressed) {
+                tap_code16(C(KC_X));
+            }
+            return false;
+        case LT(0, KC_C):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_C);
+            } else if (record->event.pressed) {
+                tap_code16(C(KC_C));
+            }
+            return false;
+        case LT(0, KC_V):
+            if (record->tap.count && record->event.pressed) {
+                tap_code16(KC_V);
+            } else if (record->event.pressed) {
+                tap_code16(C(KC_V));
+            }
+            return false;
+        case TG(4):
+            if (!record->event.pressed) {
+                return false; // Already handled the keycode (doing nothing). Logic will happen on presses, nothing is done on releases
+            }
+            handle_layer_toggle(4);
+            return false;
+        case TG(5):
+            if (!record->event.pressed) {
+                return false;
+            }
+            handle_layer_toggle(5);
+            return false;
+        case TG(6):
+            if (!record->event.pressed) {
+                return false;
+            }
+            handle_layer_toggle(6);
+            return false;
+        case TG(7):
+            if (!record->event.pressed) {
+                return false;
+            }
+            handle_layer_toggle(7);
+            return false;
+        default:
+            return true;
+    }
+    return true;
+}
