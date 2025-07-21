@@ -31,6 +31,8 @@ SLEEP_LED_ENABLE = no       # Breathing sleep LED during USB suspend
 
 TAP_DANCE_ENABLE = no
 LAYER_LOCK_ENABLE = yes
+
+VPATH  +=  keyboards/gboards/
 COMBO_ENABLE = yes
 
 LAYOUTS = ortho_5x15

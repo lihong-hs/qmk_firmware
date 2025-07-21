@@ -71,7 +71,7 @@
       "LCA_T(KC_RGHT)",
       "LAG_T(KC_MPLY)",
       "LT(4,KC_BSPC)",
-      "LT(7,KC_SPC)",
+      "LCTL_T(KC_SPC)",
       "LGUI_T(KC_ENT)",
       "ANY(LM(5, MOD_LALT))",
       "LT(7,KC_P0)",

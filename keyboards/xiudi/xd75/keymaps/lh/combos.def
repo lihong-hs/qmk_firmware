@@ -1,0 +1,12 @@
+// Alternate reference layers by layer
+//           Layer     Reference layer
+COMBO_REF_LAYER(2, 0)  // reference 0 layer for layer 2.
+
+
+//   name                   result    chord keys
+COMB(EI_NUMNAV_TG,          TG(5),    RSFT_T(KC_E), RGUI_T(KC_I))
+COMB(K89_MOUSE_TG,          TG(6),    KC_8, KC_9)
+COMB(WF_NUMNAV_ONCE,        OSL(5),   KC_W, KC_F)
+COMB(XC_SYMBOL_ONCE,        OSL(7),   KC_X, KC_C)
+COMB(COMMDOT_SYMBOL_ONCE,   OSL(7),   KC_COMM, KC_DOT)
+

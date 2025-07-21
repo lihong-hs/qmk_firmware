@@ -1,34 +1,3 @@
-enum combos {
-  L0_EI_NUMNAV_TG,  // COLEMAK-DH
-  L2_KL_NUMNAV_TG,  // QWERTY
-
-  K89_MOUSE_TG,
-
-  WF_NUMNAV_ONCE,  // COLEMAK-DH
-  WE_NUMNAV_ONCE,  // QWERTY
-
-  XC_SYMBOL_ONCE,
-  COMMDOT_SYMBOL_ONCE,
-};
-
-const uint16_t PROGMEM l0_ei_combo[]  = {RSFT_T(KC_E), RGUI_T(KC_I), COMBO_END};
-const uint16_t PROGMEM l2_kl_combo[]  = {RSFT_T(KC_K), RGUI_T(KC_L), COMBO_END};
-const uint16_t PROGMEM k89_combo[]    = {KC_8, KC_9, COMBO_END};
-const uint16_t PROGMEM wf_combo[]     = {KC_W, KC_F, COMBO_END};
-const uint16_t PROGMEM we_combo[]     = {KC_W, KC_E, COMBO_END};
-const uint16_t PROGMEM xc_combo[]     = {KC_X, KC_C, COMBO_END};
-const uint16_t PROGMEM comdot_combo[] = {KC_COMM, KC_DOT, COMBO_END};
-
-combo_t key_combos[] = {
-  [L0_EI_NUMNAV_TG] = COMBO(l0_ei_combo, TG(5)),
-  [L2_KL_NUMNAV_TG] = COMBO(l2_kl_combo, TG(5)),
-  [K89_MOUSE_TG]    = COMBO(k89_combo, TG(6)),
-  [WF_NUMNAV_ONCE]  = COMBO(wf_combo, OSL(5)),
-  [WE_NUMNAV_ONCE]  = COMBO(we_combo, OSL(5)),
-  [XC_SYMBOL_ONCE]  = COMBO(xc_combo, OSL(7)),
-  [COMMDOT_SYMBOL_ONCE] = COMBO(comdot_combo, OSL(7)),
-};
-
 #ifdef COMBO_MUST_TAP_PER_COMBO
 bool get_combo_must_tap(uint16_t combo_index, combo_t *combo) {
     // All combos is tap-only
